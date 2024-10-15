@@ -1,0 +1,189 @@
+h2 {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+section.home {
+  background-color: rgb(95, 190, 159);
+  width: 100%;
+  height: 97vh;
+  .container {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: clamp(30px, 3.125vw, 60px) clamp(20px, 5.2083vw, 100px) ;
+    margin: 0 auto;
+    .headshot {
+      margin-right: 150px;
+      .pic {
+        border-radius: 30px;
+        overflow: hidden;
+        width: 300px; 
+        picture {
+          display: block;
+          height: 100%;
+        } 
+      }
+    }
+    
+    .introduce {
+     
+      h3 {
+        font-size: 48px;
+        margin-bottom: 10px;
+      }
+      h4 {
+        font-size: 28px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+    }
+  }
+  .btn-list {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    .resume,
+    .experience,
+    .chess {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      transition: all .5s;
+    }
+    .resume {
+      background: #adcfeb;
+    }
+    .resume:hover {
+      background: #1a4d77;
+      color: white;
+    }
+    .experience {
+      background: #e7e47a;
+    }
+    .experience:hover {
+      background: #bfb03e;
+      color: white;
+    }
+
+    .chess {
+      background: #eb9a70;
+    }
+    .chess:hover {
+      background: #e36523;
+      color: white;
+    }
+  }
+}
+
+section.photo-swiper {
+  width: 100%;
+  height: 90vh;
+  padding: clamp(30px, 5.2083vw, 100px) 0;
+}
+
+
+.swiper {
+  width: 80%;
+  height: auto;
+  padding: 50px 0 !important; 
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  .pic {
+    object-fit: contain;
+    overflow: hidden;
+    max-height: 500px;
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+
+section.experience {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgb(131, 218, 218); */
+  .container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    .pic {
+      position: absolute;
+      z-index: -1;
+    }
+    .inner {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      margin: auto;
+      gap: 30px;
+      /* justify-content: flex-start; */
+      width: 80%;
+      .box {
+        padding: 15px;
+        width: 120px;
+        height: 120px;
+        background: lightgreen;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+      }
+    }
+  }
+}
+
+section.chess {
+  background-color: #faebd7;
+  padding: clamp(30px, 5.2083vw, 100px) 0;
+  .container {
+    .first, .second {
+      margin: 50px 0 150px;
+      /* width: 65%; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 70px;
+      .info {
+        width: 20%;
+        /* margin-right: 100px; */
+        p {
+          font-size: 24px;
+        }
+      }
+      .pic {
+        width: 25%;
+      }
+    }
+  }
+}
