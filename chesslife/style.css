@@ -1,7 +1,8 @@
-.scroll-btn {
+.goTop {
+  display: none;
   position: relative;
-  /* transition: all .5s; */
   overflow: hidden;
+  transition: all .5s;
   .inner {
     width: 80px;
     height: 80px;
@@ -14,11 +15,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all .3s
   }
   .inner:hover {
     transform: scale(1.1);
   }
+}
+
+.show {
+  display: block;
 }
 
 
@@ -251,7 +255,7 @@ section.experience {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        border-top: 1px solid rgba(0, 0, 0, .3);
+        border-top: 1px solid rgba(0, 0, 0, .1);
         h4 {
           font-size: 20px;
           margin-bottom: 10px;

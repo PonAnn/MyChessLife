@@ -1,475 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Chess Experience</title>
-  <link rel="stylesheet" href="/reset.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-</head>
-<body>
-  <!-- 回最上層按鈕 -->
-  <a href="#" class="scroll-btn">
-    <div class="inner">
-      <p>TOP</p>
-    </div>
-  </a>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Chess Experience</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- 回最上層按鈕 -->
+    <a href="#" id="goTop" class="goTop">
+      <div class="inner">
+        <p>TOP</p>
+      </div>
+    </a>
 
-  <!-- Main -->
-  <section class="home">
-    <h2>My Chess Life</h2>
-    <div class="container">
-      <div class="headshot">
-        <div class="pic">
-          <picture>
-            <source srcset="./img/_R5_7636.jpg" media="(min-width: 1025px)" />
-            <source srcset="./img/main1.jpg" media="(max-width: 1024px)" />
-            <img src="./img/_R5_7636.jpg" alt="" />
-          </picture>
+    <!-- Main -->
+    <section class="home">
+      <h2>My Chess Life</h2>
+      <div class="container">
+        <div class="headshot">
+          <div class="pic">
+            <picture>
+              <source srcset="./img/_R5_7636.jpg" media="(min-width: 1025px)" />
+              <source srcset="./img/main1.jpg" media="(max-width: 1024px)" />
+              <img src="./img/_R5_7636.jpg" alt="" />
+            </picture>
+          </div>
+        </div>
+        <div class="introduce">
+          
+          <h3>彭柔安</h3>
+          <h4>象棋國際大師，象棋六段</h4>
+          <p>我的個性活潑開朗，做事細心嚴謹，抗壓性高。<br>
+            之前是運動員的我，座右銘是「苦練是通往金牌的必經之路」。<br>
+            待業中的我持續苦練，自學HTML、CSS、JavaScript、Vue...等等。<br>
+            雖然畢業於事業經營學系，卻對程式設計非常有熱情，畢業之後參加勞動部舉辦的AIOT課程，成為我轉職為軟體工程師的第一步。<br>
+          </p>
+        </div>
+        <div class="btn-list">
+          <a href="#resume" class="resume btn">Resume</a>
+          <a href="#experience" class="experience btn">Experience</a>
+          <a href="#chess" class="chess btn">Chess</a>
         </div>
       </div>
-      <div class="introduce">
-        
-        <h3>彭柔安</h3>
-        <h4>象棋國際大師，象棋六段</h4>
-        <p>我的個性活潑開朗，做事細心嚴謹，抗壓性高。<br>
-          之前是運動員的我，座右銘是「苦練是通往金牌的必經之路」。<br>
-          待業中的我持續苦練，自學HTML、CSS、JavaScript、Vue...等等。<br>
-          雖然畢業於事業經營學系，卻對程式設計非常有熱情，畢業之後參加勞動部舉辦的AIOT課程，成為我轉職為軟體工程師的第一步。<br>
+    </section>
+
+    <!-- Photo Swiper -->
+    <section class="photo-swiper">
+      <div class="swiper photoSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/pic1.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper1.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/pic2.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper2.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper3.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper4.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper5.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper6.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper7.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper10.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper11.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper12.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper13.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper14.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper15.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper16.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper17.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="pic">
+              <picture>
+                <img src="./img/swiper18.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="resume">
+      <h2>Resume</h2>
+      <div class="container">
+        <h3>自我介紹與個人特質</h3>
+        <p>
+          我是彭柔安，樂觀開朗，對於沒嘗試過的事總是抱持新鮮感，也喜歡挑戰自我，渴望成為一名前端工程師。
+        </p>
+        <h3>求學與職場經歷</h3>
+        <p>
+          雖然我是事業經營學系，但對於程式設計很好奇，也在系上修了Python入門，畢業之後再做進一步的修習。曾經是運動員的我，經常參加國內外大大小小的比賽，讓自己能夠迅速熟悉環境以及提升抗壓能力。雖然目前工作經驗不多，但還是在新人階段順利完成專案，並實現響應式設計，提高網頁的流暢度。
+        </p>
+        <h3>專業技能與成就</h3>
+        <p>
+          喜歡思考的我，想挑戰往程式設計學習，參加了勞動力發展署開設的「智慧物連網技術整合實務班」課程，為期三個月。課程內容包含網站前端開發(HTML、CSS、JavaScript)、Python程式設計、資料探勘與數據分析等課程，課程結束之後再進行自學，讓自己能夠獨立完成小作品。
+        </p>
+        <h3>動機與理念</h3>
+        <p>
+          我認為前端工程師不僅僅是擁有技術的人，更是一個能夠不斷學習和成長的人。我對新技術和新挑戰充滿好奇心，願意不斷地接受挑戰並提升自己。我期待著能夠加入貴公司的團隊，與優秀的同事共同學習成長，並為公司的發展貢獻自己的力量。
         </p>
       </div>
-      <div class="btn-list">
-        <a href="#resume" class="resume btn">Resume</a>
-        <a href="#experience" class="experience btn">Experience</a>
-        <a href="#chess" class="chess btn">Chess</a>
+    </section>
+    
+    <!-- Experience -->
+    <section id="experience" class="experience">
+      <h2>Experience</h2>
+      <div class="container">
+        <div class="swiper cardSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="item">
+                <div class="pic">
+                  <img src="./img/pic1.jpg" alt="">
+                </div>
+                <div class="inner">
+                  <div class="top">
+                    <p>2006年</p>
+                    <p>8歲</p>
+                  </div>
+                  <div class="bottom">
+                    <h4>越級參加成人組比賽</h4>
+                    <p>國小一年級升上初段之後，老師希望我能跟大人磨練，可以進步得更快，於是放棄國小低年級組別獲得更多得獎機會，選擇更艱難的挑戰。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <div class="pic">
+                  <img src="./img/pic5.jpg" alt="">
+                </div>
+                <div class="inner">
+                  <div class="top">
+                    <p>2010年</p>
+                    <p>11歲</p>
+                  </div>
+                  <div class="bottom">
+                    <h4>廣州亞運集訓</h4>
+                    <p>國小五年級第一次選上國手，成為台灣史上年紀最小的亞運國手，並代表全體選手向總統領取加菜金，當時在左營訓練中心進行賽前集訓。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <div class="pic">
+                  <img src="./img/pic10.jpg" alt="">
+                </div>
+                <div class="inner">
+                  <div class="top">
+                    <p>2013年</p>
+                    <p>15歲</p>
+                  </div>
+                  <div class="bottom">
+                    <h4>亞錦賽第三 個人最佳成績</h4>
+                    <p>國中二年級當選第十六屆亞洲象棋個人錦標賽國手，遠征澳洲比賽，榮獲第三名，第一次獲得前三名，為最佳成績。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <div class="pic">
+                  <img src="./img/pic8.jpg" alt="">
+                </div>
+                <div class="inner">
+                  <div class="top">
+                    <p>2017年</p>
+                    <p>19歲</p>
+                  </div>
+                  <div class="bottom">
+                    <h4>亞錦賽第四 國際大師</h4>
+                    <p>2017年選上第十八屆亞洲象棋個人錦標賽國手，至柬埔寨參賽，榮獲第四名，因勝率達標，獲頒國際大師頭銜。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <div class="pic">
+                  <img src="./img/pic9.jpg" alt="">
+                </div>
+                <div class="inner">
+                  <div class="top">
+                    <p>2022年</p>
+                    <p>23歲</p>
+                  </div>
+                  <div class="bottom">
+                    <h4>錦倉盃冠軍 晉升六段</h4>
+                    <p>2022年參加錦倉盃全國中階棋士象棋錦標賽獲得冠軍，晉升六段，為台灣女子最高段位。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <div class="pic">
+                  <img src="./img/swiper2.jpg" alt="">
+                </div>
+                <div class="inner">
+                  <div class="top">
+                    <p>2022年</p>
+                    <p>23歲</p>
+                  </div>
+                  <div class="bottom">
+                    <h4>世錦賽第六</h4>
+                    <p>2022年當選第十七屆世界象棋錦標賽國手，榮獲第六名，為世錦賽最佳成績。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item">
+                <div class="pic">
+                  <img src="./img/main1.jpg" alt="">
+                </div>
+                <div class="inner">
+                  <div class="top">
+                    <p>2023年</p>
+                    <p>24歲</p>
+                  </div>
+                  <div class="bottom">
+                    <h4>杭州亞運 團體第四 個人第五</h4>
+                    <p>2022年杭州亞運，時隔12年，再度選上亞運國手，成為台灣象棋項目為一一位兩次亞運皆參賽的選手。同時出賽團體及個人賽項目，最終團體賽獲得第四名，個人賽第五名。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Photo Swiper -->
-  <section class="photo-swiper">
-    <div class="swiper photoSwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="pic">
+    
+
+    <!-- Chess -->
+    <section id="chess" class="chess">
+      <h2>棋局欣賞</h2>
+      <div class="container">
+        <div class="first item">
+          <div class="info">
+            <p>
+              第一局是2023年杭州亞運個人賽的第一盤，我抽籤遇到全場最強的中國選手，剛拿下世界冠軍的左文靜，難得有機會與高手學習一盤棋，全神貫注認真下出一盤好棋，中間一度大優走出機會，可惜對手實力更勝一籌，最終握手言和。
+            </p>
+          </div>
+          <div class="pic chessPic">
             <picture>
-              <img src="./img/pic1.jpg" alt="">
+              <img src="./img/chess2.gif" alt="">
             </picture>
           </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper1.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/pic2.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper2.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper3.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper4.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper5.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
           <div class="pic">
             <picture>
               <img src="./img/swiper6.jpg" alt="">
             </picture>
           </div>
         </div>
-        <div class="swiper-slide">
+        <div class="second item">
+          <div class="info">
+            <p>
+              第二局是2023年杭州亞運團體賽的第三盤，這盤棋是我們爭取奪牌的門票，如果輸了將無緣獎牌，對手是前越南女子第一人吳蘭香，越南在象棋是世界第二強國，激戰將近百回合，最終僥倖抓到和棋機會，握手言和。
+            </p>
+          </div>
+          <div class="pic chessPic">
+            <picture>
+              <img src="./img/chess1.gif" alt="">
+            </picture>
+          </div>
           <div class="pic">
             <picture>
               <img src="./img/swiper7.jpg" alt="">
             </picture>
           </div>
         </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper10.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper11.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper12.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper13.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper14.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper15.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper16.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper17.jpg" alt="">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="pic">
-            <picture>
-              <img src="./img/swiper18.jpg" alt="">
-            </picture>
-          </div>
-        </div>
       </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </div>
-  </section>
-
-  <!-- Resume -->
-  <section id="resume" class="resume">
-    <h2>Resume</h2>
-    <div class="container">
-      <h3>自我介紹與個人特質</h3>
-      <p>
-        我是彭柔安，樂觀開朗，對於沒嘗試過的事總是抱持新鮮感，也喜歡挑戰自我，渴望成為一名前端工程師。
-      </p>
-      <h3>求學與職場經歷</h3>
-      <p>
-        雖然我是事業經營學系，但對於程式設計很好奇，也在系上修了Python入門，畢業之後再做進一步的修習。曾經是運動員的我，經常參加國內外大大小小的比賽，讓自己能夠迅速熟悉環境以及提升抗壓能力。雖然目前工作經驗不多，但還是在新人階段順利完成專案，並實現響應式設計，提高網頁的流暢度。
-      </p>
-      <h3>專業技能與成就</h3>
-      <p>
-        喜歡思考的我，想挑戰往程式設計學習，參加了勞動力發展署開設的「智慧物連網技術整合實務班」課程，為期三個月。課程內容包含網站前端開發(HTML、CSS、JavaScript)、Python程式設計、資料探勘與數據分析等課程，課程結束之後再進行自學，讓自己能夠獨立完成小作品。
-      </p>
-      <h3>動機與理念</h3>
-      <p>
-        我認為前端工程師不僅僅是擁有技術的人，更是一個能夠不斷學習和成長的人。我對新技術和新挑戰充滿好奇心，願意不斷地接受挑戰並提升自己。我期待著能夠加入貴公司的團隊，與優秀的同事共同學習成長，並為公司的發展貢獻自己的力量。
-      </p>
-    </div>
-  </section>
-
-  <!-- Experience -->
-  <!-- <section id="experience" class="experience">
-    <h2>Experience</h2>
-    <div class="container">
-      <div class="pic">
-        <picture>
-          <img src="./img/arrow2.png" alt="">
-        </picture>
-      </div>
-      <div class="inner">
-        <div class="box">2005年學棋</div>
-        <div class="box">2006年升初段</div>
-        <div class="box">2010年當選亞運國手</div>
-        <div class="box">2013年亞錦賽第三名</div>
-        <div class="box">2017年獲得國際大師頭銜</div>
-        <div class="box">2019年世錦賽第六名</div>
-        <div class="box">2022年升六段(女子最高段)</div>
-        <div class="box">2022年二度選上亞運國手</div>
-        <div class="box">2024轉職軟體工程師</div>
-      </div>
-    </div>
-  </section> -->
-  
-  <!-- Experience -->
-  <section id="experience" class="experience">
-    <h2>Experience</h2>
-    <div class="container">
-      <div class="swiper cardSwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="item">
-              <div class="pic">
-                <img src="./img/pic1.jpg" alt="">
-              </div>
-              <div class="inner">
-                <div class="top">
-                  <p>2006年</p>
-                  <p>8歲</p>
-                </div>
-                <div class="bottom">
-                  <h4>越級參加成人組比賽</h4>
-                  <p>國小一年級升上初段之後，老師希望我能跟大人磨練，可以進步得更快，於是放棄國小低年級組別獲得更多得獎機會，選擇更艱難的挑戰。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="item">
-              <div class="pic">
-                <img src="./img/pic5.jpg" alt="">
-              </div>
-              <div class="inner">
-                <div class="top">
-                  <p>2010年</p>
-                  <p>11歲</p>
-                </div>
-                <div class="bottom">
-                  <h4>廣州亞運集訓</h4>
-                  <p>國小五年級第一次選上國手，成為台灣史上年紀最小的亞運國手，並代表全體選手向總統領取加菜金，當時在左營訓練中心進行賽前集訓。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="item">
-              <div class="pic">
-                <img src="./img/pic10.jpg" alt="">
-              </div>
-              <div class="inner">
-                <div class="top">
-                  <p>2013年</p>
-                  <p>15歲</p>
-                </div>
-                <div class="bottom">
-                  <h4>亞錦賽第三 個人最佳成績</h4>
-                  <p>國中二年級當選第十六屆亞洲象棋個人錦標賽國手，遠征澳洲比賽，榮獲第三名，第一次獲得前三名，為最佳成績。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="item">
-              <div class="pic">
-                <img src="./img/pic8.jpg" alt="">
-              </div>
-              <div class="inner">
-                <div class="top">
-                  <p>2017年</p>
-                  <p>19歲</p>
-                </div>
-                <div class="bottom">
-                  <h4>亞錦賽第四 國際大師</h4>
-                  <p>2017年選上第十八屆亞洲象棋個人錦標賽國手，至柬埔寨參賽，榮獲第四名，因勝率達標，獲頒國際大師頭銜。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="swiper-slide">
-            <div class="item">
-              <div class="pic">
-                <img src="./img/picture2.jpg" alt="">
-              </div>
-              <div class="inner">
-                <div class="top">
-                  <p>2019年</p>
-                  <p>8歲</p>
-                </div>
-                <div class="bottom">
-                  <h4>亞錦賽第四</h4>
-                  <p>比賽過程/資訊/心得</p>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <div class="swiper-slide">
-            <div class="item">
-              <div class="pic">
-                <img src="./img/pic9.jpg" alt="">
-              </div>
-              <div class="inner">
-                <div class="top">
-                  <p>2022年</p>
-                  <p>23歲</p>
-                </div>
-                <div class="bottom">
-                  <h4>錦倉盃冠軍 晉升六段</h4>
-                  <p>2022年參加錦倉盃全國中階棋士象棋錦標賽獲得冠軍，晉升六段，為台灣女子最高段位。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="item">
-              <div class="pic">
-                <img src="./img/swiper2.jpg" alt="">
-              </div>
-              <div class="inner">
-                <div class="top">
-                  <p>2022年</p>
-                  <p>23歲</p>
-                </div>
-                <div class="bottom">
-                  <h4>世錦賽第六</h4>
-                  <p>2022年當選第十七屆世界象棋錦標賽國手，榮獲第六名，為世錦賽最佳成績。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="item">
-              <div class="pic">
-                <img src="./img/main1.jpg" alt="">
-              </div>
-              <div class="inner">
-                <div class="top">
-                  <p>2023年</p>
-                  <p>24歲</p>
-                </div>
-                <div class="bottom">
-                  <h4>杭州亞運 團體第四 個人第五</h4>
-                  <p>2022年杭州亞運，時隔12年，再度選上亞運國手，成為台灣象棋項目為一一位兩次亞運皆參賽的選手。同時出賽團體及個人賽項目，最終團體賽獲得第四名，個人賽第五名。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
-  </section>
-
-  
-
-  <!-- Chess -->
-  <section id="chess" class="chess">
-    <h2>棋局欣賞</h2>
-    <div class="container">
-      <div class="first item">
-        <div class="info">
-          <p>
-            第一局是2023年杭州亞運個人賽的第一盤，我抽籤遇到全場最強的中國選手，剛拿下世界冠軍的左文靜，難得有機會與高手學習一盤棋，全神貫注認真下出一盤好棋，中間一度大優走出機會，可惜對手實力更勝一籌，最終握手言和。
-          </p>
-        </div>
-        <div class="pic chessPic">
-          <picture>
-            <img src="./img/chess2.gif" alt="">
-          </picture>
-        </div>
-        <div class="pic">
-          <picture>
-            <img src="./img/swiper6.jpg" alt="">
-          </picture>
-        </div>
-      </div>
-      <div class="second item">
-        <div class="info">
-          <p>
-            第二局是2023年杭州亞運團體賽的第三盤，這盤棋是我們爭取奪牌的門票，如果輸了將無緣獎牌，對手是前越南女子第一人吳蘭香，越南在象棋是世界第二強國，激戰將近百回合，最終僥倖抓到和棋機會，握手言和。
-          </p>
-        </div>
-        <div class="pic chessPic">
-          <picture>
-            <img src="./img/chess1.gif" alt="">
-          </picture>
-        </div>
-        <div class="pic">
-          <picture>
-            <img src="./img/swiper7.jpg" alt="">
-          </picture>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
 
 
-
-  <script>
-    var swiper = new Swiper(".photoSwiper", {
-      autoplay: true,
-      loop: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        dynamicBullets: true
-      },
-      breakpoints: { 
-        375: {  
-          slidesPerView: 1,
-          spaceBetween: 0
-        },
-        767: {  
-          slidesPerView: 2,
-          spaceBetween: 30
-        },
-      }
-    });
-
-    var swiper = new Swiper(".cardSwiper", {
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination",
-        dynamicBullets: true
-      },
-      breakpoints: { 
-        375: {  
-          slidesPerView: 1,
-          spaceBetween: 20
-        },
-        767: {  
-          slidesPerView: 2,
-          spaceBetween: 60
-        },
-        1440: {  
-          slidesPerView: 3,
-          spaceBetween: 60
-        },
-      }
-    });
-  </script>
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>
