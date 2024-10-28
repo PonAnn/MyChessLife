@@ -179,51 +179,21 @@ section.resume {
 }
 
 /* experience */
-/* section.experience {
-  width: 100%;
-  height: 100vh;
-  .container {
-    width: 90%;
-    height: 100%;
-    margin: auto;
-    position: relative;
-    .pic {
-      position: absolute;
-      z-index: -1;
-    }
-    .inner {
-      display: flex;
-      align-items: center;
-      height: 100%;
-      gap: 30px;
-      width: 80%;
-      flex-wrap: wrap;
-      .box {
-        padding: 15px;
-        width: 120px;
-        height: 120px;
-        background: lightgreen;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align:center;
-        flex-shrink: 0;
-      }
-    }
-  }
-} */
-
-/* experience */
 section.experience {
   .container {
-    padding: clamp(50px, 5.208vw, 100px) 0;
+    padding: 50px 0;
     width: 80%;
     margin: auto;
     .item {
+      padding: 30px;
+      height: 100%;
       max-width: 450px;
+      min-height: 550px;
       display: flex;
       flex-direction: column;
+      background: #ecf8ff;
+      border-radius: 30px;
+      flex: 1;
       .pic {
         border-radius: 10px;
         overflow: hidden;
@@ -231,7 +201,7 @@ section.experience {
         max-width: 450px;
         max-height: 300px;
         width: 100%;
-        height: 100%;
+        height: 350px;
         img {
           border-radius: 10px;
           transition: all .4s;
@@ -241,29 +211,37 @@ section.experience {
           /* transition: scale .3s; */
         }
       }
-      .top {
-        padding: 20px 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        p {
-          font-size: 20px;
+      .inner {
+        flex: 1;
+        .top {
+          padding: 20px 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          p {
+            font-size: 20px;
+          }
+        }
+        .bottom {
+          padding: 20px 0;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          border-top: 1px solid rgba(0, 0, 0, .1);
+          h4 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+          }
+          p {
+            font-size: 16px;
+            text-align: left;
+          }
         }
       }
-      .bottom {
-        padding: 20px 0;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        border-top: 1px solid rgba(0, 0, 0, .1);
-        h4 {
-          font-size: 20px;
-          margin-bottom: 10px;
-          font-weight: 600;
-        }
-        p {
-          font-size: 16px;
-          text-align: left;
+      .pic-vertical {
+        img {
+          object-position: top;
         }
       }
     }
@@ -282,7 +260,7 @@ section.experience {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    height: 100%;
   }
   
   .swiper-slide img {
@@ -328,19 +306,6 @@ section.chess {
 
 
 /* RWD */
-@media screen and (max-width: 1440px) {
-  /* section.experience {
-    height: 80vh;
-    .container {
-      .inner {
-        align-content: flex-start;
-        padding: clamp(30px, 3.125vw, 60px) 0;
-        gap: 60px 30px;
-      }
-    }
-  } */
-}
-
 @media screen and (max-width: 1200px) {
   .scroll-btn {
     .inner {
@@ -383,6 +348,11 @@ section.chess {
       p {
         font-size: 16px;
       }
+    }
+  }
+  section.experience {
+    .container {
+      padding: 0 0 50px 0;
     }
   }
   section.chess {

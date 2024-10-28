@@ -34,7 +34,7 @@ var swiper = new Swiper(".cardSwiper", {
       slidesPerView: 1,
       spaceBetween: 20
     },
-    767: {  
+    900: {  
       slidesPerView: 2,
       spaceBetween: 60
     },
