@@ -145,6 +145,8 @@ section.photo-swiper {
       object-fit: contain;
       overflow: hidden;
       max-height: 500px;
+      border-radius: 10px;
+      overflow: hidden;
       img {
         display: block;
         width: 100%;
@@ -293,6 +295,8 @@ section.chess {
       }
       .pic {
         width: 25%;
+        border-radius: 20px;
+        overflow: hidden;
       }
       .chessPic {
         transition: all .6s;
@@ -415,6 +419,11 @@ section.chess {
       p {
         font-size: 14px;
       }
+    }
+  }
+  section.experience {
+    .container {
+      width: 90%;
     }
   }
   section.chess {
